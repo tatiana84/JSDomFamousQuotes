@@ -1,0 +1,45 @@
+body {
+    background-image: url("");
+    margin: 0px;
+}
+
+.container {
+    height: 90vh;
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+button {
+    background-color: whitesmoke;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    max-width: 150px;
+    width: 50%;
+
+
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    left: 500px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+button:hover {
+    background-color: lavender;
+}
